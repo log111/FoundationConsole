@@ -23,8 +23,25 @@ int main(int argc, const char * argv[])
                      initWithFirstName:myFirstName
                               LastName:@"Long"
                               Birthday:[NSDate date]];
+        //Person * __weak p = [[Person alloc] initWithFirstName:@"Hong" LastName:@"Long" Birthday:[NSDate date]];
         [p sayHello];
+        Person * __weak wp1 = p;
+        NSLog(@"Before block");
+        {
+            Person * p1 = p;
+            
+            p = nil;
         
+            [p1 sayHello];
+            [wp1 sayHello];
+            
+            p1 = nil;
+        }
+        NSLog(@"After block");
+        
+        [wp1 sayHello];
+        
+        /*
         [myFirstName appendString:@" Dragon"];
         
         [p sayHello];
@@ -38,6 +55,7 @@ int main(int argc, const char * argv[])
         }else{
             NSLog(@"nilPerson is nil");
         }
+         */
     }
     return 0;
 }

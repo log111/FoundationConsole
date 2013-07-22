@@ -30,6 +30,10 @@
     return [self initWithFirstName:nil LastName:nil Birthday:nil];
 }
 
+-(void) dealloc{
+    NSLog(@"Person deallocation");
+}
+
 -(void) sayHello {
     [self sayGreeting:@"Hello world!"];
 }
