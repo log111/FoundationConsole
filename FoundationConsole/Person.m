@@ -8,6 +8,13 @@
 
 #import "Person.h"
 
+@interface Person ()
+
+@property NSString *uniqueIdentifier;
+
+@end
+
+
 @implementation Person
 
 -(id) initWithFirstName:(NSString*)firstName
@@ -41,6 +48,10 @@
 -(void) sayGreeting:(NSString*)greeting {
     //NSString *msg = [greeting uppercaseString];
     NSLog(@"%@ %@ %@", greeting, self.firstName, self.lastName);
+}
+
+-(void) assignUniqueIdentifier{
+    self.uniqueIdentifier = @"Long Hong 1985";
 }
 
 +(Person*) person {

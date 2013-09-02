@@ -12,6 +12,9 @@
 		31AEB7B5179CF3E4006DD648 /* FoundationConsole.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 31AEB7B4179CF3E4006DD648 /* FoundationConsole.1 */; };
 		31AEB7BD179CF3FD006DD648 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AEB7BC179CF3FD006DD648 /* Person.m */; };
 		31AEB81D179D5E10006DD648 /* ShoutingPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 31AEB81C179D5E10006DD648 /* ShoutingPerson.m */; };
+		EB0A801017D2F2B400B5C535 /* Organization.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0A800F17D2F2B400B5C535 /* Organization.m */; };
+		EB0A801317D2F36500B5C535 /* ArrayOrganization.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0A801217D2F36500B5C535 /* ArrayOrganization.m */; };
+		EBFFFA6F179ED9AC00DC2776 /* Person+PersonNameDisplayAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFFFA6E179ED9AC00DC2776 /* Person+PersonNameDisplayAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +40,13 @@
 		31AEB7BC179CF3FD006DD648 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		31AEB81B179D5E10006DD648 /* ShoutingPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoutingPerson.h; sourceTree = "<group>"; };
 		31AEB81C179D5E10006DD648 /* ShoutingPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoutingPerson.m; sourceTree = "<group>"; };
+		EB0A800D17D2D93B00B5C535 /* SystemProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemProtocol.h; sourceTree = "<group>"; };
+		EB0A800E17D2F2B400B5C535 /* Organization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Organization.h; sourceTree = "<group>"; };
+		EB0A800F17D2F2B400B5C535 /* Organization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Organization.m; sourceTree = "<group>"; };
+		EB0A801117D2F36500B5C535 /* ArrayOrganization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrayOrganization.h; sourceTree = "<group>"; };
+		EB0A801217D2F36500B5C535 /* ArrayOrganization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArrayOrganization.m; sourceTree = "<group>"; };
+		EBFFFA6D179ED9AC00DC2776 /* Person+PersonNameDisplayAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+PersonNameDisplayAdditions.h"; sourceTree = "<group>"; };
+		EBFFFA6E179ED9AC00DC2776 /* Person+PersonNameDisplayAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+PersonNameDisplayAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,13 @@
 				31AEB7B2179CF3E4006DD648 /* Supporting Files */,
 				31AEB7BB179CF3FD006DD648 /* Person.h */,
 				31AEB7BC179CF3FD006DD648 /* Person.m */,
+				EBFFFA6D179ED9AC00DC2776 /* Person+PersonNameDisplayAdditions.h */,
+				EBFFFA6E179ED9AC00DC2776 /* Person+PersonNameDisplayAdditions.m */,
+				EB0A800D17D2D93B00B5C535 /* SystemProtocol.h */,
+				EB0A800E17D2F2B400B5C535 /* Organization.h */,
+				EB0A800F17D2F2B400B5C535 /* Organization.m */,
+				EB0A801117D2F36500B5C535 /* ArrayOrganization.h */,
+				EB0A801217D2F36500B5C535 /* ArrayOrganization.m */,
 			);
 			path = FoundationConsole;
 			sourceTree = "<group>";
@@ -152,6 +169,9 @@
 				31AEB7B1179CF3E4006DD648 /* main.m in Sources */,
 				31AEB7BD179CF3FD006DD648 /* Person.m in Sources */,
 				31AEB81D179D5E10006DD648 /* ShoutingPerson.m in Sources */,
+				EBFFFA6F179ED9AC00DC2776 /* Person+PersonNameDisplayAdditions.m in Sources */,
+				EB0A801017D2F2B400B5C535 /* Organization.m in Sources */,
+				EB0A801317D2F36500B5C535 /* ArrayOrganization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,4 +15,20 @@
     [super sayGreeting:upper];
 }
 
+- (BOOL) knowC {
+    return YES;
+}
+
+- (BOOL) knowOS {
+    return YES;
+}
+
+- (BOOL) knowLinuxKernel{
+    return NO;
+}
+
++ (id<SystemProtocol>) systemClass{
+    return [ShoutingPerson new];
+}
+
 @end

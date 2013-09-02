@@ -10,6 +10,7 @@
 
 @interface Person : NSObject
 
+@property (readonly) NSString *uniqueIdentifier;
 @property (copy) NSString *firstName;
 @property (copy) NSString *lastName;
 @property NSDate *birthday;
@@ -20,6 +21,7 @@
 -(id) init;
 -(void) sayHello;
 -(void) sayGreeting:(NSString*)greeting;
+-(void) assignUniqueIdentifier;
 +(Person*) person;
 
 @end
